@@ -15,14 +15,14 @@ Este é um programa Python que foi projetado para automatizar a atualização de
 
 ## Configuração Inicial:
 
-  Certifique-se de ter um arquivo client_secret.json que contém as informações de autenticação do Google API. Esse arquivo é necessário para autenticar o acesso à planilha.
+  Certifique-se de ter um arquivo client_secret.json que contém as informações de autenticação do Google API. Esse arquivo é necessário para autenticar o acesso à planilha.  
   Execute o programa uma vez para autenticar e gerar o arquivo token.json que será usado para autenticação futura.
 
 ## Funcionalidades Principais:
 
-  Leitura de informações de clientes, nomes de backups e datas/horas de backups de uma planilha no Google Sheets.
-  Verificação de backups em um servidor remoto usando um caminho de rede.
-  Atualização das informações de backups detectados na planilha.
+  Leitura de informações de clientes, nomes de backups e datas/horas de backups de uma planilha no Google Sheets.  
+  Verificação de backups em um servidor remoto usando um caminho de rede.  
+  Atualização das informações de backups detectados na planilha.  
 
 ## Instruções de Uso:
 
@@ -37,6 +37,6 @@ Este é um programa Python que foi projetado para automatizar a atualização de
 
 ## Avisos e Considerações:
 
-  Certifique-se de que o servidor remoto e os caminhos de rede mencionados no programa estejam acessíveis e configurados corretamente.
-  Este programa foi projetado para um caso de uso específico. Se você deseja usá-lo para outros fins, pode ser necessário fazer ajustes nas configurações, caminhos e lógica.
-  Mantenha suas credenciais de API seguras e não compartilhe o arquivo client_secret.json publicamente.
+  Certifique-se de que o servidor remoto e os caminhos de rede mencionados no programa estejam acessíveis e configurados corretamente.  
+  Este programa foi projetado para um caso de uso específico. Se você deseja usá-lo para outros fins, pode ser necessário fazer ajustes nas configurações, caminhos e lógica.  
+  Mantenha suas credenciais de API seguras e não compartilhe o arquivo client_secret.json publicamente.  
