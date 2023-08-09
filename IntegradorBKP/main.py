@@ -7,6 +7,7 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
+from ftplib import FTP
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
@@ -78,11 +79,13 @@ def main():
     vetor_dh = result.get('values', [])
     # print(vetor_dh)
 
+
     # Criando a estutura de FTP
 
     # ftp = FTP('')  # Conecta ao servidor FTP
     # ftp.login(user='', passwd='')  # Autenticação FTP
     # ftp.cwd(caminho_pasta)  # Muda para a pasta do cliente    
+
 
     # Criando o loop de atualização da planilha
 
