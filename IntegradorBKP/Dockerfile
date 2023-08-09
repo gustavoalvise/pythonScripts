@@ -9,10 +9,10 @@ COPY main.py .
 COPY client_secret.json .
 COPY token.json .
 
-# Instale as dependências do seu código
+# Instale as dependências do seu código (API)
 RUN pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
-# Atualizando para FTP
+# Atualizando para utilizar o FTP
 VOLUME [ "/app/ftp_share" ]
 
 # Execute o seu código quando o contêiner for iniciado
