@@ -79,11 +79,12 @@ def main():
     vetor_dh = result.get('values', [])
     # print(vetor_dh)
 
-    # Criando integração com o FTP
-    
-    ftp = FTP('192.168.1.211')  # Conecta ao servidor FTP
-    ftp.login(user='seu_usuario', passwd='sua_senha')  # Autenticação FTP
-    ftp.cwd(caminho_pasta)  # Muda para a pasta do cliente
+
+    # Criando a estutura de FTP
+
+    # ftp = FTP('')  # Conecta ao servidor FTP
+    # ftp.login(user='', passwd='')  # Autenticação FTP
+    # ftp.cwd(caminho_pasta)  # Muda para a pasta do cliente    
 
 
     # Criando o loop de atualização da planilha
