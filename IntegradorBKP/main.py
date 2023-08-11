@@ -82,9 +82,9 @@ def main():
 
     # Criando a estutura de FTP
 
-    # ftp = FTP('')  # Conecta ao servidor FTP
-    # ftp.login(user='', passwd='')  # Autenticação FTP
-    # ftp.cwd(caminho_pasta)  # Muda para a pasta do cliente    
+    ftp = FTP('')  # Conecta ao servidor FTP
+    ftp.login(user='', passwd='')  # Autenticação FTP
+    ftp.cwd(caminho_pasta)  # Muda para a pasta do cliente    
 
 
     # Criando o loop de atualização da planilha
